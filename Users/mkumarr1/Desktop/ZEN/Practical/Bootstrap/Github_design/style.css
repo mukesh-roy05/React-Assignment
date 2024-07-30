@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgb(149, 162, 146);
+}
+.header{
+    background-color: rgb(44, 58, 58);
+    padding: 20px 5px;
+    /* margin: 5px 0px; */
+    color: white;
+}
+
+.container{
+    margin: 0px;
+    display: inline-block
+}
+
+
+
+#sidebar{
+    background: rgb(39, 34, 34);
+    height: 60vh;
+    width: 20%;
+    margin: 70px 20px 10px 0px;
+    border-radius: 10px;
+    
+}
+
+#searchbar{
+    height: 50px;
+    background: rgb(39, 34, 34);
+    margin: 90px 50px 50px 150px;
+    border-radius: 10px;
+}
+
+#content{
+    background: rgb(39, 34, 34);
+    margin: 30px;
+    gap: 20px;
+    height: 8rem;
+    border-radius: 10px;
+}
+
+#footer{
+    margin: 30px;
+    background: rgb(39, 34, 34);
+    border-radius: 10px;
+    height: 10rem;
+}
