@@ -1,0 +1,46 @@
+
+.form-control{
+    width: 500px !important;
+    border-color: rgb(38, 223, 236);
+    font-size: large;
+    font-weight: 600;
+}
+
+.btn1{
+    width: 12rem;
+    border-radius: .5rem;
+    background-color: rgb(38, 223, 236);
+    font-size: large;
+    font-weight: bold;
+}
+
+.header{
+    margin-left: 30rem;
+    color: rgb(38, 223, 236);
+}
+
+.todos-conatainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.todos-conatainer span{
+    margin-right: 10px;
+}
+
+.todos-conatainer select,option{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.card{
+    background-color: rgb(191, 244, 227);
+}
+.cardBody{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
