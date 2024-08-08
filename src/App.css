@@ -37,6 +37,9 @@
 }
 .card{
     background-color: rgb(191, 244, 227);
+    display: block;
+    font-weight: bold;
+   
 }
 .cardBody{
     display: inline-block;

@@ -23,11 +23,9 @@ function App() {
   };
 
   const handleStatusChange = (index, newStatus) => {
-    let updatedCards = [...cards];
-    if (updatedCards[index]) {
-      updatedCards[index].status = newStatus;
-      setCards(updatedCards);
-    }
+    const updatedCards = [...cards];
+    updatedCards[index].status = newStatus;
+    setCards(updatedCards);
   };
 
   const handleDelete = (index) => {
@@ -90,7 +88,14 @@ function App() {
             {/* <h3>Card {index + 1}:</h3> */}
             <p>Name : {card.input1}</p>
             <p>Description : {card.input2}</p>
-            <span>Status : </span>
+            <p>Status :{card.status}</p>
+            {/* <select>
+              <option value="completed"> Completed</option>
+              <option value="Not Completed" selected>
+                Not Completed
+              </option>
+            </select> */}
+
             <select
               value={card.status}
               onChange={(e) => handleStatusChange(index, e.target.value)}
@@ -98,17 +103,17 @@ function App() {
               <option value="Not Complete">Not Complete</option>
               <option value="Complete">Complete</option>
             </select>
-            <div className="card-body">
+            <div class="card-body">
               <a
                 href="#"
-                className="card-link btn btn-success"
+                class="card-link btn btn-success"
                 onClick={handleStatusChange}
               >
                 Update
               </a>
               <a
                 href="#"
-                className="card-link btn btn-danger"
+                class="card-link btn btn-danger"
                 onClick={handleDelete}
               >
                 Delete
