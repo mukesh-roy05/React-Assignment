@@ -2,6 +2,7 @@ body {
     font-family: 'dm sans', Sans-serif;
 }
 
+
 .navbar{
     display: flex;
     justify-content: center;
@@ -9,10 +10,10 @@ body {
  a{
     list-style: none;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #0aaa01;
     font-weight: bold;
-    margin-left:4rem;
+    margin-left: 1rem;
     
 }
 
@@ -22,31 +23,7 @@ a.active {
     color: #0aaa01 !important;
     border-bottom: 2px solid #0aaa01;
 }
-/*
- .nav-link {
-    font-size: 14px !important;
-    font-weight: 700 !important;
-    text-transform: uppercase;
-    text-decoration: none !important;
-    padding: 10px 24px !important;
-    line-height: 20px;
-}
-
-@media screen and (min-width:1024px) {
-
-    .nav-link:hover,
-    .nav-link:active,
-    .nav-link.active {
-        color: #0aaa01 !important;
-        border-bottom: 2px solid #0aaa01;
-    }
-}
-
-.nav-link:hover,
-.nav-link:active,
-.nav-link.active {
-    color: #0aaa01 !important;
-} */
+ 
 
 .card {
     font-family: 'dm sans', Sans-serif;
