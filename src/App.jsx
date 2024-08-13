@@ -1,5 +1,4 @@
 import React from "react";
-import CourseNavbar from "../../react-course-router-task copy/src/components/Navbar";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import All from "./pages/All";
 import FullStack from "./pages/FullStack";
@@ -8,12 +7,17 @@ import CyberSecurity from "./pages/CyberSecurity";
 import DataScience from "./pages/DataScience";
 import "./App.css";
 import { data } from "./components/Data";
+import Navbar from "./components/Navbar";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <CourseNavbar />,
+    element: <Navbar />,
     children: [
+      {
+        path: "/",
+        element: <All data={data} />,
+      },
       {
         path: "/all",
         element: <All data={data} />,
