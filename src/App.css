@@ -1,0 +1,20 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.app-container > h1{
+  text-align: center;
+  padding: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  color: #e5fab8;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
