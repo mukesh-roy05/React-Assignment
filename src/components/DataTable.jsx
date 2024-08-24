@@ -140,7 +140,7 @@ const DataTable = () => {
       </div>
 
       <div className="container m-2">
-        <Table striped bordered responsive variant="dark">
+        <Table striped bordered responsive>
           <thead>
             <tr>
               <th>ID</th>
