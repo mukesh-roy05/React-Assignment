@@ -3,7 +3,7 @@ import Dashboard from "./components/Dashboard";
 import Sidebar from "./components/Sidebar";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Adduser from "./components/AddUser";
-import Edituser from "./components/EditUser";
+import Edituser from "./components/editUser";
 
 function App() {
   return (
