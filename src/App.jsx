@@ -1,14 +1,24 @@
 import { useEffect, useState } from "react";
+import axios from "axios";
 
 const api = "https://66ca324159f4350f064ea5a8.mockapi.io/users";
 const App = () => {
   const [data, setData] = useState([]);
   const [isEnable, setIsEnable] = useState(false);
 
+  const urlFetch = async () => {
+    try {
+      const fetchData = await axios.get(api);
+      setData(fetchData.data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
   useEffect(() => {
-    fetch(api, { method: "GET" })
-      .then((response) => response.json())
-      .then((res) => setData(res));
+    // fetch(api, { method: "GET" })
+    //   .then((response) => response.json())
+    //   .then((res) => setData(res));
+    urlFetch();
   }, []);
 
   const handleClick = (e) => {
