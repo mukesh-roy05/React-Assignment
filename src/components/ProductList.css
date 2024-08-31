@@ -1,0 +1,98 @@
+/* src/components/ProductList.css */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 280px;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product-title {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 600;
+    color: #333;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #ff5722;
+    margin-bottom: 15px;
+}
+
+.action-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #388e3c;
+}
+
+.details-button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.details-button:hover {
+    background-color: #1976d2;
+    transform: scale(1.05);
+}
+
+.details-button::after {
+    content: ' >>';
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.product-details {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.product-details p {
+    margin: 5px 0;
+}

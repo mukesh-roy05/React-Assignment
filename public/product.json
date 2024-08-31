@@ -1,0 +1,76 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "iPhone 9",
+            "description": "An apple mobile which is nothing like apple",
+            "price": 549,
+            "discountPercentage": 12.96,
+            "rating": 4.69,
+            "stock": 94,
+            "brand": "Apple",
+            "category": "smartphones",
+            "images": [
+                "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone14-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1661958160674"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "iPhone X",
+            "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+            "price": 899,
+            "discountPercentage": 17.94,
+            "rating": 4.44,
+            "stock": 34,
+            "brand": "Apple",
+            "category": "smartphones",
+            "images": [
+                "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone13-202209?wid=340&hei=264&fmt=p-jpg&qlt=95&.v=1661958176452"
+              
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Samsung Universe 9",
+            "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+            "price": 1249,
+            "discountPercentage": 15.46,
+            "rating": 4.09,
+            "stock": 36,
+            "brand": "Samsung",
+            "category": "smartphones",
+            "images": [
+                "https://image-us.samsung.com/us/smartphones/galaxy-s24/all-gallery/01_E3_TitaniumGray_Lockup_1600x1200.jpg?$product-card-small-jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "OPPOF19",
+            "description": "OPPO F19 is officially announced on April 2021.",
+            "price": 280,
+            "discountPercentage": 17.91,
+            "rating": 4.3,
+            "stock": 123,
+            "brand": "OPPO",
+            "category": "smartphones",
+            "images": [
+                "https://opsg-img-cdn-gl.heytapimg.com/epb/202406/26/IzcVfAu2kdJjoeYS.png"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Huawei P30",
+            "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
+            "price": 499,
+            "discountPercentage": 10.58,
+            "rating": 4.09,
+            "stock": 32,
+            "brand": "Huawei",
+            "category": "smartphones",
+            "images": [
+                "data:image/webp;base64,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"
+                
+            ]
+        }
+    ]
+}
